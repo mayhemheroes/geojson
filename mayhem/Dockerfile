@@ -1,6 +1,6 @@
 FROM ghcr.io/evanrichter/cargo-fuzz as builder
 
-ADD . /geojson
+ADD ../ /geojson
 WORKDIR /geojson/fuzz
 RUN cargo +nightly fuzz build 
 
