@@ -1,0 +1,6 @@
+project: geojson
+target: geojson-fuzz
+
+cmds:
+    - cmd: ./geojson-fuzz
+      libfuzzer: true
